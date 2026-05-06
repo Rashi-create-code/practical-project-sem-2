@@ -11,12 +11,12 @@ function Fetch() {
 
   return (
     <div>
-      <h1>User List</h1>
+      <h2>User List</h2>
 
       {users.map((user) => (
         <div key={user.id}>
-          <h3>Username: {user.username}</h3>
-          <p>Email: {user.email}</p>
+          <h3 style={{color:"#497ddd"}}>Username: {user.username}</h3>
+          <p style={{color:"#495add86"}}>Email: {user.email}</p>
           <hr />
         </div>
       ))}
